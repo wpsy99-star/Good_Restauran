@@ -1,0 +1,6 @@
+{
+  "name": "중랑구 맛집 탐방 (Jungnang Food Guide)",
+  "description": "상봉동부터 면목동, 망우동까지 중랑구 로컬 골목 맛집 큐레이션과 오늘 뭐 먹지 랜덤 추천 가이드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

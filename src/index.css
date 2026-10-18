@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #fff8f6;
+    --surface: #fff8f6;
+    --surface-lowest: #ffffff;
+    --surface-low: #fff1ec;
+    --surface-container: #faebe6;
+    --surface-high: #f4e5e0;
+    --surface-highest: #eedfda;
+    --primary: #ab3500;
+    --primary-container: #ff6b35;
+    --primary-fixed: #ffdbd0;
+    --on-primary: #ffffff;
+    --secondary: #785a00;
+    --secondary-container: #ffd167;
+    --secondary-fixed: #ffdf9b;
+    --on-secondary-fixed: #251a00;
+    --tertiary: #665f3d;
+    --tertiary-fixed: #ede3b8;
+    --on-surface: #211a17;
+    --on-surface-variant: #594139;
+    --outline: #8d7168;
+    --outline-variant: #e1bfb5;
+    --inverse-surface: #372f2b;
+    --inverse-on-surface: #fdeee8;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--on-surface);
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  }
+}
+
+/* Custom scrollbar hide utility */
+.scrollbar-none::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none,
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
